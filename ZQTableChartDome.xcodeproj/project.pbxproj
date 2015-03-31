@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1841A79A1ACA731500B42DCD /* BadLoanTable01.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1841A7981ACA731500B42DCD /* BadLoanTable01.plist */; };
+		1841A79B1ACA731500B42DCD /* BadLoanTable02.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1841A7991ACA731500B42DCD /* BadLoanTable02.plist */; };
+		18CB86051ACA42EE00327A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86041ACA42EE00327A6D /* main.m */; };
+		18CB86081ACA42EE00327A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86071ACA42EE00327A6D /* AppDelegate.m */; };
+		18CB860E1ACA42EE00327A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CB860C1ACA42EE00327A6D /* Main.storyboard */; };
+		18CB86101ACA42EE00327A6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB860F1ACA42EE00327A6D /* Images.xcassets */; };
+		18CB86131ACA42EE00327A6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CB86111ACA42EE00327A6D /* LaunchScreen.xib */; };
+		18CB861F1ACA42EE00327A6D /* ZQTableChartDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB861E1ACA42EE00327A6D /* ZQTableChartDomeTests.m */; };
+		18CB862F1ACA43AE00327A6D /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB862A1ACA43AE00327A6D /* ZQTableCell.m */; };
+		18CB86301ACA43AE00327A6D /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB862C1ACA43AE00327A6D /* ZQTableChart.m */; };
+		18CB86311ACA43AE00327A6D /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB862E1ACA43AE00327A6D /* ZQTableChartView.m */; };
+		18CB86351ACA44EA00327A6D /* UIView+FunctionPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86341ACA44EA00327A6D /* UIView+FunctionPlus.m */; };
+		18CB86381ACA4E0F00327A6D /* ZQTableChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */; };
+		18CB863A1ACA4F3400327A6D /* BadLoanTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CB86391ACA4F3400327A6D /* BadLoanTable.plist */; };
+		18CB863C1ACA4F5300327A6D /* data in Resources */ = {isa = PBXBuildFile; fileRef = 18CB863B1ACA4F5300327A6D /* data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CB86191ACA42EE00327A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CB85F71ACA42EE00327A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CB85FE1ACA42EE00327A6D;
+			remoteInfo = ZQTableChartDome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1841A7981ACA731500B42DCD /* BadLoanTable01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BadLoanTable01.plist; sourceTree = "<group>"; };
+		1841A7991ACA731500B42DCD /* BadLoanTable02.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BadLoanTable02.plist; sourceTree = "<group>"; };
+		18CB85FF1ACA42EE00327A6D /* ZQTableChartDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQTableChartDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CB86031ACA42EE00327A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CB86041ACA42EE00327A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CB86061ACA42EE00327A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CB86071ACA42EE00327A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CB860D1ACA42EE00327A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CB860F1ACA42EE00327A6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18CB86121ACA42EE00327A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18CB86181ACA42EE00327A6D /* ZQTableChartDomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQTableChartDomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CB861D1ACA42EE00327A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CB861E1ACA42EE00327A6D /* ZQTableChartDomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartDomeTests.m; sourceTree = "<group>"; };
+		18CB86291ACA43AE00327A6D /* ZQTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableCell.h; sourceTree = "<group>"; };
+		18CB862A1ACA43AE00327A6D /* ZQTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableCell.m; sourceTree = "<group>"; };
+		18CB862B1ACA43AE00327A6D /* ZQTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChart.h; sourceTree = "<group>"; };
+		18CB862C1ACA43AE00327A6D /* ZQTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChart.m; sourceTree = "<group>"; };
+		18CB862D1ACA43AE00327A6D /* ZQTableChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChartView.h; sourceTree = "<group>"; };
+		18CB862E1ACA43AE00327A6D /* ZQTableChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartView.m; sourceTree = "<group>"; };
+		18CB86331ACA44EA00327A6D /* UIView+FunctionPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FunctionPlus.h"; sourceTree = "<group>"; };
+		18CB86341ACA44EA00327A6D /* UIView+FunctionPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FunctionPlus.m"; sourceTree = "<group>"; };
+		18CB86361ACA4E0F00327A6D /* ZQTableChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChartController.h; sourceTree = "<group>"; };
+		18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartController.m; sourceTree = "<group>"; };
+		18CB86391ACA4F3400327A6D /* BadLoanTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BadLoanTable.plist; sourceTree = "<group>"; };
+		18CB863B1ACA4F5300327A6D /* data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CB85FC1ACA42EE00327A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CB86151ACA42EE00327A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CB85F61ACA42EE00327A6D = {
+			isa = PBXGroup;
+			children = (
+				18CB86011ACA42EE00327A6D /* ZQTableChartDome */,
+				18CB861B1ACA42EE00327A6D /* ZQTableChartDomeTests */,
+				18CB86001ACA42EE00327A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CB86001ACA42EE00327A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CB85FF1ACA42EE00327A6D /* ZQTableChartDome.app */,
+				18CB86181ACA42EE00327A6D /* ZQTableChartDomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CB86011ACA42EE00327A6D /* ZQTableChartDome */ = {
+			isa = PBXGroup;
+			children = (
+				18CB86281ACA43AE00327A6D /* ZQTableChart */,
+				18CB86061ACA42EE00327A6D /* AppDelegate.h */,
+				18CB86071ACA42EE00327A6D /* AppDelegate.m */,
+				18CB86361ACA4E0F00327A6D /* ZQTableChartController.h */,
+				18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */,
+				18CB86391ACA4F3400327A6D /* BadLoanTable.plist */,
+				1841A7981ACA731500B42DCD /* BadLoanTable01.plist */,
+				1841A7991ACA731500B42DCD /* BadLoanTable02.plist */,
+				18CB863B1ACA4F5300327A6D /* data */,
+				18CB860C1ACA42EE00327A6D /* Main.storyboard */,
+				18CB860F1ACA42EE00327A6D /* Images.xcassets */,
+				18CB86111ACA42EE00327A6D /* LaunchScreen.xib */,
+				18CB86321ACA44DE00327A6D /* Util */,
+				18CB86021ACA42EE00327A6D /* Supporting Files */,
+			);
+			path = ZQTableChartDome;
+			sourceTree = "<group>";
+		};
+		18CB86021ACA42EE00327A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CB86031ACA42EE00327A6D /* Info.plist */,
+				18CB86041ACA42EE00327A6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CB861B1ACA42EE00327A6D /* ZQTableChartDomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CB861E1ACA42EE00327A6D /* ZQTableChartDomeTests.m */,
+				18CB861C1ACA42EE00327A6D /* Supporting Files */,
+			);
+			path = ZQTableChartDomeTests;
+			sourceTree = "<group>";
+		};
+		18CB861C1ACA42EE00327A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CB861D1ACA42EE00327A6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CB86281ACA43AE00327A6D /* ZQTableChart */ = {
+			isa = PBXGroup;
+			children = (
+				18CB86291ACA43AE00327A6D /* ZQTableCell.h */,
+				18CB862A1ACA43AE00327A6D /* ZQTableCell.m */,
+				18CB862B1ACA43AE00327A6D /* ZQTableChart.h */,
+				18CB862C1ACA43AE00327A6D /* ZQTableChart.m */,
+				18CB862D1ACA43AE00327A6D /* ZQTableChartView.h */,
+				18CB862E1ACA43AE00327A6D /* ZQTableChartView.m */,
+			);
+			path = ZQTableChart;
+			sourceTree = "<group>";
+		};
+		18CB86321ACA44DE00327A6D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18CB86331ACA44EA00327A6D /* UIView+FunctionPlus.h */,
+				18CB86341ACA44EA00327A6D /* UIView+FunctionPlus.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CB86221ACA42EE00327A6D /* Build configuration list for PBXNativeTarget "ZQTableChartDome" */;
+			buildPhases = (
+				18CB85FB1ACA42EE00327A6D /* Sources */,
+				18CB85FC1ACA42EE00327A6D /* Frameworks */,
+				18CB85FD1ACA42EE00327A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQTableChartDome;
+			productName = ZQTableChartDome;
+			productReference = 18CB85FF1ACA42EE00327A6D /* ZQTableChartDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CB86171ACA42EE00327A6D /* ZQTableChartDomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CB86251ACA42EE00327A6D /* Build configuration list for PBXNativeTarget "ZQTableChartDomeTests" */;
+			buildPhases = (
+				18CB86141ACA42EE00327A6D /* Sources */,
+				18CB86151ACA42EE00327A6D /* Frameworks */,
+				18CB86161ACA42EE00327A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CB861A1ACA42EE00327A6D /* PBXTargetDependency */,
+			);
+			name = ZQTableChartDomeTests;
+			productName = ZQTableChartDomeTests;
+			productReference = 18CB86181ACA42EE00327A6D /* ZQTableChartDomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CB85F71ACA42EE00327A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = zhaozq;
+				TargetAttributes = {
+					18CB85FE1ACA42EE00327A6D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18CB86171ACA42EE00327A6D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18CB85FE1ACA42EE00327A6D;
+					};
+				};
+			};
+			buildConfigurationList = 18CB85FA1ACA42EE00327A6D /* Build configuration list for PBXProject "ZQTableChartDome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CB85F61ACA42EE00327A6D;
+			productRefGroup = 18CB86001ACA42EE00327A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */,
+				18CB86171ACA42EE00327A6D /* ZQTableChartDomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CB85FD1ACA42EE00327A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A79A1ACA731500B42DCD /* BadLoanTable01.plist in Resources */,
+				18CB860E1ACA42EE00327A6D /* Main.storyboard in Resources */,
+				18CB863A1ACA4F3400327A6D /* BadLoanTable.plist in Resources */,
+				1841A79B1ACA731500B42DCD /* BadLoanTable02.plist in Resources */,
+				18CB86131ACA42EE00327A6D /* LaunchScreen.xib in Resources */,
+				18CB86101ACA42EE00327A6D /* Images.xcassets in Resources */,
+				18CB863C1ACA4F5300327A6D /* data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CB86161ACA42EE00327A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CB85FB1ACA42EE00327A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CB86351ACA44EA00327A6D /* UIView+FunctionPlus.m in Sources */,
+				18CB86081ACA42EE00327A6D /* AppDelegate.m in Sources */,
+				18CB86301ACA43AE00327A6D /* ZQTableChart.m in Sources */,
+				18CB86381ACA4E0F00327A6D /* ZQTableChartController.m in Sources */,
+				18CB86311ACA43AE00327A6D /* ZQTableChartView.m in Sources */,
+				18CB86051ACA42EE00327A6D /* main.m in Sources */,
+				18CB862F1ACA43AE00327A6D /* ZQTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CB86141ACA42EE00327A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CB861F1ACA42EE00327A6D /* ZQTableChartDomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CB861A1ACA42EE00327A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */;
+			targetProxy = 18CB86191ACA42EE00327A6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CB860C1ACA42EE00327A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CB860D1ACA42EE00327A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CB86111ACA42EE00327A6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CB86121ACA42EE00327A6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CB86201ACA42EE00327A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CB86211ACA42EE00327A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CB86231ACA42EE00327A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQTableChartDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CB86241ACA42EE00327A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQTableChartDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CB86261ACA42EE00327A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZQTableChartDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQTableChartDome.app/ZQTableChartDome";
+			};
+			name = Debug;
+		};
+		18CB86271ACA42EE00327A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZQTableChartDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQTableChartDome.app/ZQTableChartDome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CB85FA1ACA42EE00327A6D /* Build configuration list for PBXProject "ZQTableChartDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CB86201ACA42EE00327A6D /* Debug */,
+				18CB86211ACA42EE00327A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CB86221ACA42EE00327A6D /* Build configuration list for PBXNativeTarget "ZQTableChartDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CB86231ACA42EE00327A6D /* Debug */,
+				18CB86241ACA42EE00327A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CB86251ACA42EE00327A6D /* Build configuration list for PBXNativeTarget "ZQTableChartDomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CB86261ACA42EE00327A6D /* Debug */,
+				18CB86271ACA42EE00327A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CB85F71ACA42EE00327A6D /* Project object */;
+}

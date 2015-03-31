@@ -1,0 +1,113 @@
+{
+	"title":"不良贷款状况",
+	"curbrh":"青岛农商银行汇总",
+	"brhid":"",                                 
+	"curdt":"2015年01月31日",
+    "dw":"万元",
+"dataList":[
+    	{
+            "sBrhid":"XXX银行汇总",
+            "brhid":"000",
+            "curbal":1164111.25,
+            "thanlstyear":534420.79,
+            "thanplan":1164111.25,
+            "currate":13.82,
+            "thanyearrate":6.35,
+            "thanplanrate":-84.87,
+            "loanbal":8425687.27,
+    	},
+{
+"sBrhid":"本部汇总","brhid":"001","curbal":1125711.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"00支行汇总","brhid":"002","curbal":4111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"01支行汇总","brhid":"003","curbal":1164.50,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"02支行汇总","brhid":"004","curbal":23312.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"03支行汇总","brhid":"005","curbal":2323.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"04支行汇总","brhid":"006","curbal":53425.25,"thanlstyear":534320.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"05支行汇总","brhid":"007","curbal":234324.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+
+},
+{
+"sBrhid":"06支行汇总","brhid":"008","curbal":234324.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"07支行汇总","brhid":"009","curbal":2425234.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"08支行汇总","brhid":"010","curbal":2342342.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"09支行汇总","brhid":"011","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"10支行汇总","brhid":"012","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"11支行汇总","brhid":"013","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"12支行汇总","brhid":"014","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"13支行汇总","brhid":"015","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"14支行汇总","brhid":"016","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"15支行汇总","brhid":"017","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+{
+"sBrhid":"16支行汇总","brhid":"018","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"17支行汇总","brhid":"019","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"18支行汇总","brhid":"020","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"19支行汇总","brhid":"021","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"20支行汇总","brhid":"022","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"21支行汇总","brhid":"023","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"22支行汇总","brhid":"024","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"23支行汇总","brhid":"025","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"24支行汇总","brhid":"026","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+},
+
+{
+"sBrhid":"25支行汇总","brhid":"027","curbal":1164111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+}
+
+
+    ]
+}

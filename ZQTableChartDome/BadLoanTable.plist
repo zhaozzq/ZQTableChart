@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>不良贷款状况</string>
+	<key>leftTitles</key>
+	<array>
+		<string>网点名称</string>
+	</array>
+	<key>rightTitles</key>
+	<array>
+		<string>当前数</string>
+		<dict>
+			<key>title</key>
+			<string>较年初</string>
+			<key>tag</key>
+			<string>101</string>
+		</dict>
+		<string>较计划</string>
+		<array>
+			<string>占比</string>
+			<string>当前占比</string>
+			<dict>
+				<key>title</key>
+				<string>较年初</string>
+				<key>tag</key>
+				<string>102</string>
+			</dict>
+			<string>占计划</string>
+		</array>
+	</array>
+	<key>widths</key>
+	<array>
+		<integer>95</integer>
+		<integer>80</integer>
+		<integer>80</integer>
+		<integer>80</integer>
+		<integer>60</integer>
+		<integer>60</integer>
+		<integer>60</integer>
+	</array>
+	<key>leftKeys</key>
+	<array>
+		<string>sBrhid</string>
+	</array>
+	<key>rightKeys</key>
+	<array>
+		<string>curbal</string>
+		<string>thanlstyear</string>
+		<string>thanplan</string>
+		<string>currate</string>
+		<string>thanyearrate</string>
+		<string>thanplanrate</string>
+	</array>
+</dict>
+</plist>
