@@ -15,13 +15,13 @@
 		18CB86101ACA42EE00327A6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB860F1ACA42EE00327A6D /* Images.xcassets */; };
 		18CB86131ACA42EE00327A6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CB86111ACA42EE00327A6D /* LaunchScreen.xib */; };
 		18CB861F1ACA42EE00327A6D /* ZQTableChartDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB861E1ACA42EE00327A6D /* ZQTableChartDomeTests.m */; };
-		18CB862F1ACA43AE00327A6D /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB862A1ACA43AE00327A6D /* ZQTableCell.m */; };
-		18CB86301ACA43AE00327A6D /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB862C1ACA43AE00327A6D /* ZQTableChart.m */; };
-		18CB86311ACA43AE00327A6D /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB862E1ACA43AE00327A6D /* ZQTableChartView.m */; };
 		18CB86351ACA44EA00327A6D /* UIView+FunctionPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86341ACA44EA00327A6D /* UIView+FunctionPlus.m */; };
 		18CB86381ACA4E0F00327A6D /* ZQTableChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */; };
 		18CB863A1ACA4F3400327A6D /* BadLoanTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CB86391ACA4F3400327A6D /* BadLoanTable.plist */; };
 		18CB863C1ACA4F5300327A6D /* data in Resources */ = {isa = PBXBuildFile; fileRef = 18CB863B1ACA4F5300327A6D /* data */; };
+		4F4DECDB1B54F1B700E7FCF3 /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */; };
+		4F4DECDC1B54F1B700E7FCF3 /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
+		4F4DECDD1B54F1B700E7FCF3 /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,18 +48,18 @@
 		18CB86181ACA42EE00327A6D /* ZQTableChartDomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQTableChartDomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CB861D1ACA42EE00327A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CB861E1ACA42EE00327A6D /* ZQTableChartDomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartDomeTests.m; sourceTree = "<group>"; };
-		18CB86291ACA43AE00327A6D /* ZQTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableCell.h; sourceTree = "<group>"; };
-		18CB862A1ACA43AE00327A6D /* ZQTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableCell.m; sourceTree = "<group>"; };
-		18CB862B1ACA43AE00327A6D /* ZQTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChart.h; sourceTree = "<group>"; };
-		18CB862C1ACA43AE00327A6D /* ZQTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChart.m; sourceTree = "<group>"; };
-		18CB862D1ACA43AE00327A6D /* ZQTableChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChartView.h; sourceTree = "<group>"; };
-		18CB862E1ACA43AE00327A6D /* ZQTableChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartView.m; sourceTree = "<group>"; };
 		18CB86331ACA44EA00327A6D /* UIView+FunctionPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FunctionPlus.h"; sourceTree = "<group>"; };
 		18CB86341ACA44EA00327A6D /* UIView+FunctionPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FunctionPlus.m"; sourceTree = "<group>"; };
 		18CB86361ACA4E0F00327A6D /* ZQTableChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChartController.h; sourceTree = "<group>"; };
 		18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartController.m; sourceTree = "<group>"; };
 		18CB86391ACA4F3400327A6D /* BadLoanTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BadLoanTable.plist; sourceTree = "<group>"; };
 		18CB863B1ACA4F5300327A6D /* data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data; sourceTree = "<group>"; };
+		4F4DECD51B54F1B700E7FCF3 /* ZQTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableCell.h; sourceTree = "<group>"; };
+		4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableCell.m; sourceTree = "<group>"; };
+		4F4DECD71B54F1B700E7FCF3 /* ZQTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChart.h; sourceTree = "<group>"; };
+		4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChart.m; sourceTree = "<group>"; };
+		4F4DECD91B54F1B700E7FCF3 /* ZQTableChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChartView.h; sourceTree = "<group>"; };
+		4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		18CB86011ACA42EE00327A6D /* ZQTableChartDome */ = {
 			isa = PBXGroup;
 			children = (
-				18CB86281ACA43AE00327A6D /* ZQTableChart */,
+				4F4DECD41B54F1B700E7FCF3 /* ZQTableChart */,
 				18CB86061ACA42EE00327A6D /* AppDelegate.h */,
 				18CB86071ACA42EE00327A6D /* AppDelegate.m */,
 				18CB86361ACA4E0F00327A6D /* ZQTableChartController.h */,
@@ -145,19 +145,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18CB86281ACA43AE00327A6D /* ZQTableChart */ = {
-			isa = PBXGroup;
-			children = (
-				18CB86291ACA43AE00327A6D /* ZQTableCell.h */,
-				18CB862A1ACA43AE00327A6D /* ZQTableCell.m */,
-				18CB862B1ACA43AE00327A6D /* ZQTableChart.h */,
-				18CB862C1ACA43AE00327A6D /* ZQTableChart.m */,
-				18CB862D1ACA43AE00327A6D /* ZQTableChartView.h */,
-				18CB862E1ACA43AE00327A6D /* ZQTableChartView.m */,
-			);
-			path = ZQTableChart;
-			sourceTree = "<group>";
-		};
 		18CB86321ACA44DE00327A6D /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +153,19 @@
 			);
 			path = Util;
 			sourceTree = "<group>";
+		};
+		4F4DECD41B54F1B700E7FCF3 /* ZQTableChart */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DECD51B54F1B700E7FCF3 /* ZQTableCell.h */,
+				4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */,
+				4F4DECD71B54F1B700E7FCF3 /* ZQTableChart.h */,
+				4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */,
+				4F4DECD91B54F1B700E7FCF3 /* ZQTableChartView.h */,
+				4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */,
+			);
+			path = ZQTableChart;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -273,11 +273,11 @@
 			files = (
 				18CB86351ACA44EA00327A6D /* UIView+FunctionPlus.m in Sources */,
 				18CB86081ACA42EE00327A6D /* AppDelegate.m in Sources */,
-				18CB86301ACA43AE00327A6D /* ZQTableChart.m in Sources */,
+				4F4DECDB1B54F1B700E7FCF3 /* ZQTableCell.m in Sources */,
 				18CB86381ACA4E0F00327A6D /* ZQTableChartController.m in Sources */,
-				18CB86311ACA43AE00327A6D /* ZQTableChartView.m in Sources */,
+				4F4DECDC1B54F1B700E7FCF3 /* ZQTableChart.m in Sources */,
+				4F4DECDD1B54F1B700E7FCF3 /* ZQTableChartView.m in Sources */,
 				18CB86051ACA42EE00327A6D /* main.m in Sources */,
-				18CB862F1ACA43AE00327A6D /* ZQTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
