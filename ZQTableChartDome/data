@@ -1,23 +1,20 @@
 {
-	"title":"不良贷款状况",
-	"curbrh":"青岛农商银行汇总",
-	"brhid":"",                                 
-	"curdt":"2015年01月31日",
-    "dw":"万元",
+"title":"不良贷款状况",
+"curbrh":"青岛农商银行汇总",
+"brhid":"",
+"curdt":"2015年01月31日",
+"dw":"万元",
 "dataList":[
-    	{
-            "sBrhid":"XXX银行汇总",
-            "brhid":"000",
-            "curbal":1164111.25,
-            "thanlstyear":534420.79,
-            "thanplan":1164111.25,
-            "currate":13.82,
-            "thanyearrate":6.35,
-            "thanplanrate":-84.87,
-            "loanbal":8425687.27,
-    	},
 {
-"sBrhid":"本部汇总","brhid":"001","curbal":1125711.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
+"sBrhid":"XX银行汇总",
+"brhid":"001",
+"curbal":1164111.25,
+"thanlstyear":534420.79,
+"thanplan":1164111.25,
+"currate":13.82,
+"thanyearrate":6.35,
+"thanplanrate":-84.87,
+"loanbal":8425687.27,
 },
 {
 "sBrhid":"00支行汇总","brhid":"002","curbal":4111.25,"thanlstyear":534420.79,"thanplan":1164111.25,"currate":13.82,"thanyearrate":6.35,"thanplanrate":-84.87,"loanbal":8425687.27,
@@ -109,5 +106,5 @@
 }
 
 
-    ]
+]
 }
