@@ -7,7 +7,7 @@
 //
 
 #import "ZQTableChart.h"
-#import "UIView+FunctionPlus.h"
+#import "UIView+ZQPlus.h"
 
 
 @interface ZQTableChart ()
