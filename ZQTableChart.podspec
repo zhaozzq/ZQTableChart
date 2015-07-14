@@ -4,10 +4,6 @@ Pod::Spec.new do |s|
   s.version      = "0.0.2"
   s.summary      = "一个简单的表格"
 
-  s.description  = <<-DESC
-                   一个简单的表格.
-                   DESC
-
   s.homepage     = "https://github.com/zhaozzq/ZQTableChart"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -17,16 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "Zhao" => "zhao_zzq2012@163.com" }
   # Or just: s.author    = "Zhao"
   # s.authors            = { "Zhao" => "zhao_zzq2012@163.com" }
-  # s.social_media_url   = "http://twitter.com/Zhao"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
   s.platform     = :ios, "5.0"
-
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
