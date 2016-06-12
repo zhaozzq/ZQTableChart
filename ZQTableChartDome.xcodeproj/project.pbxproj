@@ -18,6 +18,18 @@
 		18CB86381ACA4E0F00327A6D /* ZQTableChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */; };
 		18CB863A1ACA4F3400327A6D /* BadLoanTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CB86391ACA4F3400327A6D /* BadLoanTable.plist */; };
 		18CB863C1ACA4F5300327A6D /* data in Resources */ = {isa = PBXBuildFile; fileRef = 18CB863B1ACA4F5300327A6D /* data */; };
+		4F231D851D0D4CF100FC38CB /* ZQTableChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F231D7B1D0D4CF100FC38CB /* ZQTableChart.framework */; };
+		4F231D8C1D0D4CF100FC38CB /* ZQTableChartFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F231D8B1D0D4CF100FC38CB /* ZQTableChartFrameworkTests.m */; };
+		4F231D901D0D4CF100FC38CB /* ZQTableChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F231D7B1D0D4CF100FC38CB /* ZQTableChart.framework */; };
+		4F231D911D0D4CF100FC38CB /* ZQTableChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F231D7B1D0D4CF100FC38CB /* ZQTableChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F231D991D0D4D7900FC38CB /* ZQTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4DECD51B54F1B700E7FCF3 /* ZQTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F231D9A1D0D4D7900FC38CB /* ZQTableChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4DECD71B54F1B700E7FCF3 /* ZQTableChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F231D9B1D0D4D7900FC38CB /* ZQTableChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4DECD91B54F1B700E7FCF3 /* ZQTableChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F231D9C1D0D4D7900FC38CB /* UIView+ZQPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4DECDE1B54FD3600E7FCF3 /* UIView+ZQPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F231D9D1D0D4DB900FC38CB /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */; };
+		4F231D9E1D0D4DB900FC38CB /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
+		4F231D9F1D0D4DB900FC38CB /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
+		4F231DA01D0D4DB900FC38CB /* UIView+ZQPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDF1B54FD3600E7FCF3 /* UIView+ZQPlus.m */; };
 		4F4DECDB1B54F1B700E7FCF3 /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */; };
 		4F4DECDC1B54F1B700E7FCF3 /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
 		4F4DECDD1B54F1B700E7FCF3 /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
@@ -32,7 +44,42 @@
 			remoteGlobalIDString = 18CB85FE1ACA42EE00327A6D;
 			remoteInfo = ZQTableChartDome;
 		};
+		4F231D861D0D4CF100FC38CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CB85F71ACA42EE00327A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F231D7A1D0D4CF100FC38CB;
+			remoteInfo = ZQTableChartFramework;
+		};
+		4F231D881D0D4CF100FC38CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CB85F71ACA42EE00327A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CB85FE1ACA42EE00327A6D;
+			remoteInfo = ZQTableChartDome;
+		};
+		4F231D8E1D0D4CF100FC38CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CB85F71ACA42EE00327A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F231D7A1D0D4CF100FC38CB;
+			remoteInfo = ZQTableChartFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F231D971D0D4CF100FC38CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F231D911D0D4CF100FC38CB /* ZQTableChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1841A7981ACA731500B42DCD /* BadLoanTable01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BadLoanTable01.plist; sourceTree = "<group>"; };
@@ -52,6 +99,11 @@
 		18CB86371ACA4E0F00327A6D /* ZQTableChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartController.m; sourceTree = "<group>"; };
 		18CB86391ACA4F3400327A6D /* BadLoanTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BadLoanTable.plist; sourceTree = "<group>"; };
 		18CB863B1ACA4F5300327A6D /* data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data; sourceTree = "<group>"; };
+		4F231D7B1D0D4CF100FC38CB /* ZQTableChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZQTableChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F231D7F1D0D4CF100FC38CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F231D841D0D4CF100FC38CB /* ZQTableChartFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQTableChartFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F231D8B1D0D4CF100FC38CB /* ZQTableChartFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartFrameworkTests.m; sourceTree = "<group>"; };
+		4F231D8D1D0D4CF100FC38CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F4DECD51B54F1B700E7FCF3 /* ZQTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableCell.h; sourceTree = "<group>"; };
 		4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableCell.m; sourceTree = "<group>"; };
 		4F4DECD71B54F1B700E7FCF3 /* ZQTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChart.h; sourceTree = "<group>"; };
@@ -67,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F231D901D0D4CF100FC38CB /* ZQTableChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F231D771D0D4CF100FC38CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F231D811D0D4CF100FC38CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F231D851D0D4CF100FC38CB /* ZQTableChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +153,8 @@
 			children = (
 				18CB86011ACA42EE00327A6D /* ZQTableChartDome */,
 				18CB861B1ACA42EE00327A6D /* ZQTableChartDomeTests */,
+				4F231D7C1D0D4CF100FC38CB /* ZQTableChartFramework */,
+				4F231D8A1D0D4CF100FC38CB /* ZQTableChartFrameworkTests */,
 				18CB86001ACA42EE00327A6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +164,8 @@
 			children = (
 				18CB85FF1ACA42EE00327A6D /* ZQTableChartDome.app */,
 				18CB86181ACA42EE00327A6D /* ZQTableChartDomeTests.xctest */,
+				4F231D7B1D0D4CF100FC38CB /* ZQTableChart.framework */,
+				4F231D841D0D4CF100FC38CB /* ZQTableChartFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +216,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4F231D7C1D0D4CF100FC38CB /* ZQTableChartFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4F231D7F1D0D4CF100FC38CB /* Info.plist */,
+			);
+			path = ZQTableChartFramework;
+			sourceTree = "<group>";
+		};
+		4F231D8A1D0D4CF100FC38CB /* ZQTableChartFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F231D8B1D0D4CF100FC38CB /* ZQTableChartFrameworkTests.m */,
+				4F231D8D1D0D4CF100FC38CB /* Info.plist */,
+			);
+			path = ZQTableChartFrameworkTests;
+			sourceTree = "<group>";
+		};
 		4F4DECD41B54F1B700E7FCF3 /* ZQTableChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +250,20 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4F231D781D0D4CF100FC38CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F231D991D0D4D7900FC38CB /* ZQTableCell.h in Headers */,
+				4F231D9A1D0D4D7900FC38CB /* ZQTableChart.h in Headers */,
+				4F231D9C1D0D4D7900FC38CB /* UIView+ZQPlus.h in Headers */,
+				4F231D9B1D0D4D7900FC38CB /* ZQTableChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */ = {
 			isa = PBXNativeTarget;
@@ -169,10 +272,12 @@
 				18CB85FB1ACA42EE00327A6D /* Sources */,
 				18CB85FC1ACA42EE00327A6D /* Frameworks */,
 				18CB85FD1ACA42EE00327A6D /* Resources */,
+				4F231D971D0D4CF100FC38CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4F231D8F1D0D4CF100FC38CB /* PBXTargetDependency */,
 			);
 			name = ZQTableChartDome;
 			productName = ZQTableChartDome;
@@ -197,6 +302,43 @@
 			productReference = 18CB86181ACA42EE00327A6D /* ZQTableChartDomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4F231D7A1D0D4CF100FC38CB /* ZQTableChartFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F231D961D0D4CF100FC38CB /* Build configuration list for PBXNativeTarget "ZQTableChartFramework" */;
+			buildPhases = (
+				4F231D761D0D4CF100FC38CB /* Sources */,
+				4F231D771D0D4CF100FC38CB /* Frameworks */,
+				4F231D781D0D4CF100FC38CB /* Headers */,
+				4F231D791D0D4CF100FC38CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQTableChartFramework;
+			productName = ZQTableChartFramework;
+			productReference = 4F231D7B1D0D4CF100FC38CB /* ZQTableChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F231D831D0D4CF100FC38CB /* ZQTableChartFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F231D981D0D4CF100FC38CB /* Build configuration list for PBXNativeTarget "ZQTableChartFrameworkTests" */;
+			buildPhases = (
+				4F231D801D0D4CF100FC38CB /* Sources */,
+				4F231D811D0D4CF100FC38CB /* Frameworks */,
+				4F231D821D0D4CF100FC38CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F231D871D0D4CF100FC38CB /* PBXTargetDependency */,
+				4F231D891D0D4CF100FC38CB /* PBXTargetDependency */,
+			);
+			name = ZQTableChartFrameworkTests;
+			productName = ZQTableChartFrameworkTests;
+			productReference = 4F231D841D0D4CF100FC38CB /* ZQTableChartFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +353,13 @@
 					};
 					18CB86171ACA42EE00327A6D = {
 						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18CB85FE1ACA42EE00327A6D;
+					};
+					4F231D7A1D0D4CF100FC38CB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F231D831D0D4CF100FC38CB = {
+						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 18CB85FE1ACA42EE00327A6D;
 					};
 				};
@@ -230,6 +379,8 @@
 			targets = (
 				18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */,
 				18CB86171ACA42EE00327A6D /* ZQTableChartDomeTests */,
+				4F231D7A1D0D4CF100FC38CB /* ZQTableChartFramework */,
+				4F231D831D0D4CF100FC38CB /* ZQTableChartFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +401,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18CB86161ACA42EE00327A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F231D791D0D4CF100FC38CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F231D821D0D4CF100FC38CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +446,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F231D761D0D4CF100FC38CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F231D9D1D0D4DB900FC38CB /* ZQTableCell.m in Sources */,
+				4F231D9E1D0D4DB900FC38CB /* ZQTableChart.m in Sources */,
+				4F231D9F1D0D4DB900FC38CB /* ZQTableChartView.m in Sources */,
+				4F231DA01D0D4DB900FC38CB /* UIView+ZQPlus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F231D801D0D4CF100FC38CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F231D8C1D0D4CF100FC38CB /* ZQTableChartFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,6 +472,21 @@
 			isa = PBXTargetDependency;
 			target = 18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */;
 			targetProxy = 18CB86191ACA42EE00327A6D /* PBXContainerItemProxy */;
+		};
+		4F231D871D0D4CF100FC38CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F231D7A1D0D4CF100FC38CB /* ZQTableChartFramework */;
+			targetProxy = 4F231D861D0D4CF100FC38CB /* PBXContainerItemProxy */;
+		};
+		4F231D891D0D4CF100FC38CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CB85FE1ACA42EE00327A6D /* ZQTableChartDome */;
+			targetProxy = 4F231D881D0D4CF100FC38CB /* PBXContainerItemProxy */;
+		};
+		4F231D8F1D0D4CF100FC38CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F231D7A1D0D4CF100FC38CB /* ZQTableChartFramework */;
+			targetProxy = 4F231D8E1D0D4CF100FC38CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -443,6 +642,90 @@
 			};
 			name = Release;
 		};
+		4F231D921D0D4CF100FC38CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ZQTableChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhao.ZQTableChartFramework;
+				PRODUCT_NAME = ZQTableChart;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F231D931D0D4CF100FC38CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ZQTableChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhao.ZQTableChartFramework;
+				PRODUCT_NAME = ZQTableChart;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F231D941D0D4CF100FC38CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ZQTableChartFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhao.ZQTableChartFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQTableChartDome.app/ZQTableChartDome";
+			};
+			name = Debug;
+		};
+		4F231D951D0D4CF100FC38CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ZQTableChartFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhao.ZQTableChartFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQTableChartDome.app/ZQTableChartDome";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,6 +752,24 @@
 			buildConfigurations = (
 				18CB86261ACA42EE00327A6D /* Debug */,
 				18CB86271ACA42EE00327A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F231D961D0D4CF100FC38CB /* Build configuration list for PBXNativeTarget "ZQTableChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F231D921D0D4CF100FC38CB /* Debug */,
+				4F231D931D0D4CF100FC38CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F231D981D0D4CF100FC38CB /* Build configuration list for PBXNativeTarget "ZQTableChartFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F231D941D0D4CF100FC38CB /* Debug */,
+				4F231D951D0D4CF100FC38CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
