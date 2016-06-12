@@ -10,8 +10,9 @@
 #ifndef ZQTableChartHeader_h
 #define ZQTableChartHeader_h
 
-#import "ZQTableChartView.h"
-#import "ZQTableChart.h"
-#import "ZQTableCell.h"
-#import "UIView+ZQPlus.h"
+#import <ZQTableChart/ZQTableChartView.h>
+#import <ZQTableChart/ZQTableChart.h>
+#import <ZQTableChart/ZQTableCell.h>
+#import <ZQTableChart/UIView+ZQPlus.h>
+
 #endif /* ZQTableChartHeader_h */
