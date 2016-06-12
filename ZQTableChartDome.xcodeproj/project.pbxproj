@@ -30,6 +30,7 @@
 		4F231D9E1D0D4DB900FC38CB /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
 		4F231D9F1D0D4DB900FC38CB /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
 		4F231DA01D0D4DB900FC38CB /* UIView+ZQPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDF1B54FD3600E7FCF3 /* UIView+ZQPlus.m */; };
+		4F231DF71D0D5E9400FC38CB /* ZQTableChartHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F231DF61D0D5E9400FC38CB /* ZQTableChartHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F4DECDB1B54F1B700E7FCF3 /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */; };
 		4F4DECDC1B54F1B700E7FCF3 /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
 		4F4DECDD1B54F1B700E7FCF3 /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
@@ -104,6 +105,7 @@
 		4F231D841D0D4CF100FC38CB /* ZQTableChartFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQTableChartFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F231D8B1D0D4CF100FC38CB /* ZQTableChartFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQTableChartFrameworkTests.m; sourceTree = "<group>"; };
 		4F231D8D1D0D4CF100FC38CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F231DF61D0D5E9400FC38CB /* ZQTableChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChartHeader.h; sourceTree = "<group>"; };
 		4F4DECD51B54F1B700E7FCF3 /* ZQTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableCell.h; sourceTree = "<group>"; };
 		4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableCell.m; sourceTree = "<group>"; };
 		4F4DECD71B54F1B700E7FCF3 /* ZQTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableChart.h; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				4F231D7F1D0D4CF100FC38CB /* Info.plist */,
+				4F231DF61D0D5E9400FC38CB /* ZQTableChartHeader.h */,
 			);
 			path = ZQTableChartFramework;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F231DF71D0D5E9400FC38CB /* ZQTableChartHeader.h in Headers */,
 				4F231D991D0D4D7900FC38CB /* ZQTableCell.h in Headers */,
 				4F231D9A1D0D4D7900FC38CB /* ZQTableChart.h in Headers */,
 				4F231D9C1D0D4D7900FC38CB /* UIView+ZQPlus.h in Headers */,
