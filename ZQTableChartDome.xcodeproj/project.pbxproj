@@ -30,7 +30,7 @@
 		4F231D9E1D0D4DB900FC38CB /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
 		4F231D9F1D0D4DB900FC38CB /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
 		4F231DA01D0D4DB900FC38CB /* UIView+ZQPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDF1B54FD3600E7FCF3 /* UIView+ZQPlus.m */; };
-		4F3E42DE1D0D69E4000F2683 /* ZQTableChartFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3E42DD1D0D69E4000F2683 /* ZQTableChartFramework.h */; };
+		4F3E42DE1D0D69E4000F2683 /* ZQTableChartFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3E42DD1D0D69E4000F2683 /* ZQTableChartFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F4DECDB1B54F1B700E7FCF3 /* ZQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD61B54F1B700E7FCF3 /* ZQTableCell.m */; };
 		4F4DECDC1B54F1B700E7FCF3 /* ZQTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECD81B54F1B700E7FCF3 /* ZQTableChart.m */; };
 		4F4DECDD1B54F1B700E7FCF3 /* ZQTableChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DECDA1B54F1B700E7FCF3 /* ZQTableChartView.m */; };
