@@ -3,8 +3,11 @@
 - 支持点击表头；
 - 支持Podfile(name: ZQTableChart)。
 
-![图1](https://github.com/zhaozzq/ZQTableChart/blob/master/screen03.jpeg)
+<p align="center">
+<img src="https://raw.githubusercontent.com/zhaozzq/ZQTableChart/master/screen03.jpeg" alt="preview" title="preview" width="400"/>
+<img src="https://raw.githubusercontent.com/zhaozzq/ZQTableChart/master/screen02.jpeg" alt="preview" title="preview" width="400"/>
+</p>
 
-![图2](https://github.com/zhaozzq/ZQTableChart/blob/master/screen02.jpeg)
-
-![两层表头plist文件](https://github.com/zhaozzq/ZQTableChart/blob/master/twoLevelConfig.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/zhaozzq/ZQTableChart/master/twoLevelConfig.png" alt="data" title="data"/>
+</p>
